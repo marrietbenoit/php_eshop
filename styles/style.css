@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+}
+body header ul {
+  padding: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+body header ul li {
+  display: flex;
+  list-style: none;
+}
+body header ul li a {
+  text-decoration: none;
+  color: green;
+}
+body main {
+  margin: 5rem;
+  width: 80%;
+}
+body main .card {
+  height: 40vh;
+  width: 40vw;
+  margin: 2rem;
+  border: 1px solid black;
+}
+body main .card img {
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+}
+footer ul {
+  padding: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+footer ul li {
+  display: flex;
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: green;
+}/*# sourceMappingURL=style.css.map */
